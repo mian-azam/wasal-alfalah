@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #272c337c !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #272c337c !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #272c337c !important;
+}
+
+a:hover {
+    color: inherit !important;
+}
+
+body, html {
+    background-color: #272c33;
+    font-family: 'Raleway', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.shadowbox {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.centerbox {
+    display: grid;
+    place-items: center;
+}
+
+.mainlogo {
+    height: 80px;
+}
+
+.jumbo {
+    height: 80vh;
+    color: #edc56d;
+    font-size: large;
+    background: url(../images/bg/business-setup-company-formation-dubai.jpg) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbo-visa {
+    height: 80vh;
+    color: #edc56d;
+    font-size: large;
+    background: url(../images/visa.jpg) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbo-visa2 {
+    height: 80vh;
+    color: #edc56d;
+    font-size: large;
+    overflow: hidden;
+    background: url(../images/visa2.jpg) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbo-visa3 {
+    height: 80vh;
+    color: #edc56d;
+    font-size: large;
+    overflow: hidden;
+}
+
+.videobg {
+    overflow: hidden;
+}
+
+.jumbologo {
+    width: 75%;
+    min-width: 350px;
+    ;
+}
+
+.jumbo .ttl {
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.tbox {
+    padding: 100px 75px
+}
+
+.bluebox {
+    background-color: #272c33;
+    color: #edc56d;
+}
+
+.goldbox {
+    background-color: #edc56d;
+    color: #272c33;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select, textarea {
+    width: 100% !important;
+    padding: 12px !important;
+    border: 1px solid #272c33 !important;
+    border-radius: 0px !important;
+    box-sizing: border-box !important;
+    resize: vertical !important;
+    font-weight: bold !important;
+    color: inherit !important;
+    background-color: #edc56d !important;
+}
+
+input[type="submit"] {
+    background-color: #272c33;
+    color: #edc56d;
+    padding: 12px 20px;
+    border: 0px solid #272c33;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #272c33 !important;
+    color: white !important;
+}
+
+.btn-default {
+    background-color: #edc56d;
+    color: #272c33;
+}
+
+.btnc {
+    border: none;
+}
+
+.btncont {
+    text-align: center;
+}
+
+.bigttl {
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-group-box {
+    padding: 10px;
+}
+
+.nextbtn {
+    margin-top: 20px;
+    border-radius: 0%;
+    border: none !important;
+}
+
+.pkgbox {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.nohiddencrhgs {
+    font-weight: 300;
+    padding-top: 40px;
+    font-size: 60%;
+}
+
+.packagebox {
+    background: rgb(39, 44, 51);
+    background: linear-gradient(105deg, rgba(39, 44, 51, 1) 20%, rgba(69, 76, 87, 1) 80%);
+}
+
+.pricebox {
+    border: 2px solid #edc56d;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bigtext {
+    font-size: 200%;
+}
+
+.owl-stage {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.owl-item {
+    display: grid;
+    place-items: center;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+    height: 100px;
+}
+
+.branchmiddle {
+    border-top: 1px solid #272c33;
+}
+
+.footerlogobox {
+    border-bottom: 1px solid #272c33;
+}
+
+.footerlogo {
+    height: 150px;
+}
+
+.footerlink {
+    display: inline-block;
+    margin: 10px;
+}
+
+.jambo-link {
+    display: inline-block;
+    margin: 0px;
+}
+
+.footersocialbox .bi {
+    font-size: xx-large;
+}
+
+.footeraddress {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.minheightbox {
+    min-height: 400px;
+}
+
+.aboutbg {
+    background: url(../images/bg/Al-Arabiya-About-us.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser1 {
+    background: url(../images/ser1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser2 {
+    background: url(../images/ser2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser3 {
+    background: url(../images/ser3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser4 {
+    background: url(../images/ser4.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser5 {
+    background: url(../images/ser5.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser6 {
+    background: url(../images/ser6.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser7 {
+    background: url(../images/ser7.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ser8 {
+    background: url(../images/ser8.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bsetup {
+    background: url(https://www.al-arabiyadubai.com/images/bg/business-setup-company-formation-dubai.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bsetup1 {
+    background: url(../images/bg/Al-Arabiya_Dubai_Freezone.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.bsetup2 {
+    background: url(../images/bg/Al-Arabiya_Sharjah_Freezone.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.bsetup3 {
+    background: url(../images/bg/Al-Arabiya_Trade_License.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.bsetup4 {
+    background: url(../images/company.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+.ifza1 {
+    background: url(../images/ifza.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.calcbox {
+    background-image: url(../images/calc.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mapbox {
+    min-height: 300px;
+}
+
+.almap {
+    width: 100%;
+    height: 100%;
+}
+
+.footermapbox {
+    height: 100%;
+    width: 100%;
+}
+
+.footersocialbox {
+    border-top: 1px solid #272c33;
+}
+
+.borderb {
+    border-bottom: 1px solid #272c33;
+}
+
+.bordery {
+    border-bottom: 1px solid #edc56d;
+}
+
+.footermapbox iframe {
+    -webkit-border-top-right-radius: 70px;
+    -webkit-border-bottom-left-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    -moz-border-radius-bottomleft: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+/* Underline From Left */
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #edc56d;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+.tbox2 {
+    padding: 35px 100px !important;
+    background-color: #272c33;
+}
+
+.wapp {
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+}
+
+.sidebox {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+}
+
+.sbtn {
+    width: 70px;
+    display: inline;
+    margin: 5px;
+}
+
+.ucountry {
+    border-bottom: 0px !important;
+}
+
+.popupform {
+    max-width: 700px;
+    padding: 50px;
+    background-color: #edc56d;
+    border: 2px solid #272c33;
+}
+
+.popupform2 {
+    border: 2px solid #272c33;
+}
+
+.popttl {
+    font-weight: 700;
+    text-align: center;
+}
+
+.popsub {
+    font-weight: 300;
+    text-align: center;
+}
+
+.lity {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.prop-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#inline {
+    overflow: auto;
+}
+
+.lity-content::after {
+    box-shadow: none !important;
+}
+
+.lity-close {
+    right: 20px;
+    top: 20px;
+}
+
+/* featured-sec */
+
+.main-featured-sec {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: #e5e5e5;
+    background-image: none;
+    position: relative;
+    display: block;
+}
+
+/* Who we are section  */
+
+.who-we-are-container
+{
+    padding:50px 10px;
+}
+
+.who-we-are {
+    
+    margin-left: 60px;
+    
+}
+.who-we-are p{
+    
+    font-size: 17px;
+    display:inline-block;
+    font-weight: 400;
+    
+}
+
+.who-we-are img{
+
+    display:inline; 
+    margin-right:15px;
+    height: 23px;
+}
+
+.who-we-are .who-we-are-point{
+    margin: 0 0 0 20px;
+    
+    display:flex;
+} 
+
+.who-we-are h2{
+    
+    color: #212529;
+    margin-bottom:20px;
+    display: block;
+    width: 288px;
+    font-size: 36px;
+    font-weight: 700;
+    z-index: 100008;
+    line-height: 1.3;
+    letter-spacing: 0;
+    height: 93.6px;
+    text-align: left;
+    margin-left: 20px;
+    text-align-last: left;
+    font-style: normal;
+    display: block;
+}
+@media (max-width:768px) {
+    
+    
+    
+    .jumbo {
+    height: 80vh;
+    color: #edc56d;
+    font-size: large;
+    background: url(../images/bg/business-setup-company-formation-dubaimobile.jpg) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    
+    
+  
+
+  .who-we-are {
+    
+    margin-left: 0;
+    
+}
+
+.who-we-are-container{
+    padding:40px 10px;
+}
+
+.who-we-are-container .who-we-are{
+    padding:20px;
+}
+
+
+.who-we-are-container iframe{
+    width:100%;
+}
+}
+
+element.style {
+}
+#kCiD1d2epTNzrfZt2gTSGxJab6mEF9S6>.row .container {
+    font-size: 14px;
+    font-family: arial;
+    height: 523px;
+    width: 1200px;
+    position: relative;
+    display: block;
+}
+#kCiD1d2epTNzrfZt2gTSGxJab6mEF9S6>.row .container {
+    border-width: 0;
+    border-radius: 0;
+}
+#kCiD1d2epTNzrfZt2gTSGxJab6mEF9S6>.row .container {
+    background-color: transparent;
+    background-image: none;
+}
+.widget-section .container {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+@media (min-width: 768px) and (max-width: 979px)
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 724px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: arial,'sans-serif';
+    line-height: 1;
+}
+body {
+    text-rendering: optimizeLegibility;
+}
+#kCiD1d2epTNzrfZt2gTSGxJab6mEF9S6>.row .container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+element.style {
+}
+.row {
+    height: 100%;
+}
+@media (min-width: 768px) and (max-width: 979px)
+.row {
+    *zoom: 1;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: arial,'sans-serif';
+    line-height: 1;
+}
+body {
+    text-rendering: optimizeLegibility;
+}
+.row:before {
+    content: " ";
+    display: table;
+}
+@media (min-width: 768px) and (max-width: 979px)
+.row:before, .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.row:after {
+    clear: both;
+}
+@media (min-width: 768px) and (max-width: 979px)
+.row:after {
+    clear: both;
+}
+@media (min-width: 768px) and (max-width: 979px)
+.row:before, .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+element.style {
+}
+#kCiD1d2epTNzrfZt2gTSGxJab6mEF9S6 {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: #e5e5e5;
+    background-image: none;
+    position: relative;
+    display: block;
+}
+.widget-section {
+    position: relative;
+}
+.widget {
+    position: absolute;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: arial,'sans-serif';
+    line-height: 1;
+}
+body {
+    text-rendering: optimizeLegibility;
+}
+#kCiD1d2epTNzrfZt2gTSGxJab6mEF9S6::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+element.style {
+}
+body {
+    background-color: #fff;
+    background-image: none;
+    position: relative;
+    display: block;
+}
+body {
+    font-family: arial,'sans-serif';
+    line-height: 1;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    text-rendering: optimizeLegibility;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+#TxvpQxGuo6CkxW3pseVeXnPkXz3TAWhR::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    .quoter {
+        margin-bottom: 25px !important;
+    }
+    .pkgbox {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .jumbo {
+        height: auto;
+    }
+    .jumbo-visa {
+        height: auto;
+    }
+    .jumbo-visa2 {
+        height: auto;
+    }
+    .shadowbox {
+        padding: 15px;
+    }
+    .tbox {
+        padding: 50px 30px
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: auto;
+        height: 100px;
+    }
+    .owl-item {
+        text-align: center;
+    }
+    .mobcenter {
+        text-align: center !important;
+    }
+    .mobbordery {
+        border-bottom: 1px solid #edc56d;
+    }
+    .mobborderb {
+        border-bottom: 1px solid #272c33;
+    }
+    .footerlink {
+        display: inline-block;
+        padding: 10px;
+    }
+    .jumbologo {
+        width: 80%;
+    }
+    .shadowbox {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.9) 100%);
+    }
+    .pkgbox {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .jumbo {
+        height: auto;
+    }
+    .jumbo-visa {
+        height: auto;
+    }
+    .jumbo-visa2 {
+        height: auto;
+    }
+    .tbox {
+        padding: 30px 15px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: auto;
+        height: 100px;
+    }
+    .owl-item {
+        text-align: center;
+    }
+    .mobcenter {
+        text-align: center !important;
+    }
+    .mobbordery {
+        border-bottom: 1px solid #edc56d;
+    }
+    .jumbologo {
+        width: 80%;
+    }
+    .shadowbox {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 35%, rgba(0, 0, 0, 0.9) 100%);
+    }
+    .pkgbox {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
