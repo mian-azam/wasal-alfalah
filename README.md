@@ -1,2 +1,2 @@
 # wasal-alfalah
-- A proposed website for Wasal Alfalah, UAE based company. 
+- A proposed [website](https://mian-azam.github.io/wasal-alfalah/) for Wasal Alfalah, UAE based company. 
